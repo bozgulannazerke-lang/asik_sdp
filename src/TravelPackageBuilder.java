@@ -1,4 +1,4 @@
-public interface TravelPackageBuilder {
+public interface TravelPackageBuilder{
     TravelPackageBuilder reset();
     TravelPackageBuilder setDestination(String destination);
     TravelPackageBuilder setDurationDays(int durationDays);

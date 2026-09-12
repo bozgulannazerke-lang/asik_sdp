@@ -6,6 +6,7 @@ public class TravelPackage {
     private boolean includesTransfer;
     private String mealPlan;
     private boolean includesExcursions;
+
     public TravelPackage(String destination, int durationDays, String hotelCategory,
                          boolean includesFlight, boolean includesTransfer,
                          String mealPlan, boolean includesExcursions) {
