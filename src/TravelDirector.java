@@ -1,4 +1,4 @@
-public class TravelDirector {
+public class TravelDirector{
     public TravelPackage constructAllInclusiveTour(TravelPackageBuilder builder, String destination, int days) {
         return builder.reset()
                 .setDestination(destination)

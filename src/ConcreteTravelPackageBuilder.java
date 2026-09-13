@@ -6,6 +6,7 @@ public class ConcreteTravelPackageBuilder implements TravelPackageBuilder {
     private boolean includesTransfer;
     private String mealPlan;
     private boolean includesExcursions;
+
     public ConcreteTravelPackageBuilder() {
         reset();
     }
